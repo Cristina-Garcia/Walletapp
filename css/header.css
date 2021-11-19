@@ -1,0 +1,31 @@
+.head {
+  background: var(--primary);
+  min-block-size: 10.875rem;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  justify-self: center;
+  align-items: center;
+  padding: 2.5rem 1rem 1rem;
+}
+.logo-stock {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+.logo-stock p {
+  color: var(--white);
+  font: var(--Body2-Regular);
+  margin: 0;
+}
+.logo-stock span {
+  color: var(--white);
+  font: var(--Hadline3);
+}
+.logo img {
+  inline-size: 3rem;
+  block-size: 3rem;
+  border-radius: 50%;
+}

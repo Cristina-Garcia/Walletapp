@@ -1,0 +1,14 @@
+.container {
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+.date-container {
+  width: 100%;
+  padding-inline-start: 1rem;
+  padding-block-start: 0.5rem;
+  padding-block-end: 0.5rem;
+  font: var(--Body2-Regular);
+  color: var(--grey);
+
+  box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.04);
+}

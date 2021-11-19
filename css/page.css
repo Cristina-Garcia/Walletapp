@@ -1,0 +1,16 @@
+/* body {
+  background-color: var(--primary);
+} */
+.page {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  /* inline-size: 22.5rem;
+  block-size: 40rem; */
+}
+.page-app {
+  display: grid;
+  grid-template-rows: 10.875rem 21.125rem 8rem;
+  inline-size: 22.5rem;
+}

@@ -1,0 +1,9 @@
+::-webkit-scrollbar {
+  background: var(--white);
+  inline-size: 0.5rem;
+  block-size: 0.5rem;
+}
+
+main::-webkit-scrollbar-thumb:vertical:hover {
+  background: var(--grey);
+}
