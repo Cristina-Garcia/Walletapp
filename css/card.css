@@ -3,8 +3,13 @@
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
-  padding-inline-start: 1rem;
-  padding-inline-end: 1rem;
+  padding-block: 0.5rem;
+  padding-inline: 1rem;
+
+  box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.04);
+}
+.card-information {
+  display: flex;
 }
 .card-description {
   display: flex;
@@ -32,9 +37,24 @@
   color: var(--green);
 }
 .card-image {
-  margin-inline-start: 0;
-  margin-inline-end: 0;
+  margin: 0;
+  /*  */
   inline-size: 3rem;
   block-size: 3rem;
   border-radius: 0.5rem;
+}
+.card-form {
+  font: var(--Body2-Regular);
+  padding-inline: 1rem;
+}
+.card-form p {
+  margin: 0.25rem;
+}
+.card-form input {
+  width: 19.5rem;
+  padding: 0.5rem;
+  font: var(--Body2-Regular);
+  color: var(--black);
+  border: 1px solid var(--grey2);
+  border-radius: 0.25rem;
 }

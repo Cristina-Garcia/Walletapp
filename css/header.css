@@ -3,29 +3,55 @@
   min-block-size: 10.875rem;
 }
 
-.logo {
+.available-money {
   display: flex;
   justify-content: space-between;
   justify-self: center;
   align-items: center;
   padding: 2.5rem 1rem 1rem;
 }
-.logo-stock {
+.money {
   display: flex;
   flex-direction: column;
   gap: 0.25rem;
 }
-.logo-stock p {
+.money p {
   color: var(--white);
   font: var(--Body2-Regular);
   margin: 0;
 }
-.logo-stock span {
+.money span {
   color: var(--white);
   font: var(--Hadline3);
 }
-.logo img {
+.money.is-sent span {
+  color: var(--black);
+  text-align: center;
+  padding: 1rem;
+}
+.available-money img {
   inline-size: 3rem;
   block-size: 3rem;
   border-radius: 50%;
+}
+
+.service-title {
+  background: var(--primary);
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  padding-block-start: 1.3rem;
+  padding-block-end: 1.3rem;
+  padding-inline-start: 1rem;
+}
+
+.service-title h1 {
+  font: var(--Button);
+  color: var(--white);
+  margin: 0;
+}
+
+.service-title i {
+  position: relative;
+  bottom: -2px;
 }

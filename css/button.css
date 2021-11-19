@@ -3,16 +3,15 @@
   width: 20.5rem;
   box-sizing: border-box;
   border: 1px solid transparent;
-  padding: 0.5rem 1rem 0.5rem 1rem;
+  padding: 0.5rem 1rem;
   margin-block-end: 1rem;
-  margin-inline-end: 1rem;
-  margin-inline-start: 1rem;
+  margin-inline: 1rem;
   background: none;
   color: currentColor;
   border-radius: 0.5rem;
   font: var(--Button);
   text-align: center;
-  text-decoration: none;
+
   cursor: pointer;
   outline: none;
 }
@@ -22,6 +21,10 @@
   color: var(--white);
 }
 
+.button.is-primary a {
+  text-decoration: none;
+  color: var(--white);
+}
 .button.is-secondary {
   border: 1px solid var(--primary);
   background: none;
