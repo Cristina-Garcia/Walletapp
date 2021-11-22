@@ -28,8 +28,7 @@
   display: flex;
   flex-direction: column;
   padding-block: 1rem;
-  /* padding-block-start: 1rem;
-  padding-block-end: 1rem; */
+  /*  */
 }
 .button-actions.is-sent {
   justify-content: flex-end;

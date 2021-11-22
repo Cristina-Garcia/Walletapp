@@ -25,10 +25,13 @@
   text-decoration: none;
   color: var(--white);
 }
+.button.is-secondary a {
+  text-decoration: none;
+  color: var(--primary);
+}
 .button.is-secondary {
   border: 1px solid var(--primary);
   background: none;
-  color: var(--primary);
 }
 
 .button.is-third {
