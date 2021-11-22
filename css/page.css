@@ -11,12 +11,14 @@
   display: grid;
   grid-template-rows: 10.875rem 21.125rem 8rem;
   inline-size: 22.5rem;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
 .page-appSent {
   display: grid;
   grid-template-rows: auto 24.625rem 11.18rem;
   inline-size: 22.5rem;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 .container {
   box-sizing: border-box;
@@ -25,8 +27,9 @@
 .button-actions {
   display: flex;
   flex-direction: column;
-  padding-block-start: 1rem;
-  padding-block-end: 1rem;
+  padding-block: 1rem;
+  /* padding-block-start: 1rem;
+  padding-block-end: 1rem; */
 }
 .button-actions.is-sent {
   justify-content: flex-end;

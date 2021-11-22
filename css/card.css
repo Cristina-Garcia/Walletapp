@@ -43,6 +43,7 @@
   block-size: 3rem;
   border-radius: 0.5rem;
 }
+
 .card-form {
   font: var(--Body2-Regular);
   padding-inline: 1rem;

@@ -6,7 +6,7 @@
 .available-money {
   display: flex;
   justify-content: space-between;
-  justify-self: center;
+
   align-items: center;
   padding: 2.5rem 1rem 1rem;
 }
@@ -40,8 +40,8 @@
   display: flex;
   /* justify-content: center; */
   align-items: center;
-  padding-block-start: 1.3rem;
-  padding-block-end: 1.3rem;
+  padding-block: 1.3rem;
+
   padding-inline-start: 1rem;
 }
 
@@ -52,6 +52,7 @@
 }
 
 .service-title i {
-  position: relative;
-  bottom: -2px;
+  vertical-align: middle;
+  /* position: relative;
+  bottom: -2px; */
 }
