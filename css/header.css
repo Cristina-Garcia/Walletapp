@@ -50,8 +50,11 @@
   color: var(--white);
   margin: 0;
 }
-
+.service-title a {
+  text-decoration: none;
+}
 .service-title i {
+  font-size: 1.5rem;
   vertical-align: middle;
   margin-inline-end: 0.5rem;
   /* position: relative;
