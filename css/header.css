@@ -22,7 +22,7 @@
 }
 .money span {
   color: var(--white);
-  font: var(--Hadline3);
+  font: var(--Headline3);
 }
 .money.is-sent span {
   color: var(--black);
@@ -53,6 +53,7 @@
 
 .service-title i {
   vertical-align: middle;
+  margin-inline-end: 0.5rem;
   /* position: relative;
   bottom: -2px; */
 }

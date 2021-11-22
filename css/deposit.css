@@ -1,0 +1,30 @@
+.transfer {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+.transfer-info {
+  display: flex;
+  flex-direction: column;
+}
+.transfer figure {
+  margin: 0;
+}
+.transfer h1 {
+  font: var(--Body1-Bold);
+}
+.transfer-info span:nth-child(1) {
+  font: var(--Caption);
+}
+.transfer-info span:nth-child(2) {
+  font: var(--Headline4);
+}
+.instructions {
+  padding: 1rem;
+}
+
+.instructions ol {
+  font: var(--Body2-Regular);
+  margin: 0;
+  padding-inline: 1rem;
+}

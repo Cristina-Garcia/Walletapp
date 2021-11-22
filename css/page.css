@@ -7,18 +7,24 @@
   /* inline-size: 22.5rem;
   block-size: 40rem; */
 }
-.page-app {
-  display: grid;
-  grid-template-rows: 10.875rem 21.125rem 8rem;
+.page-app,
+.page-appSent,
+.page-appDeposit {
   inline-size: 22.5rem;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.page-app {
+  display: grid;
+  grid-template-rows: auto 21.125rem 8rem;
 }
 
 .page-appSent {
   display: grid;
   grid-template-rows: auto 24.625rem 11.18rem;
-  inline-size: 22.5rem;
-  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.page-appDeposit {
+  display: grid;
+  grid-template-rows: auto 35.812rem;
 }
 .container {
   box-sizing: border-box;
